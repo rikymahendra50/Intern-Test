@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intern Tailwind</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header Start -->
+    <header id="home" class="bg-customBackColor w-full lg:h-[800px] md:h-[1078px] sm:h-[999px] cs:h-[1001px]">
+        <span><img src="img/ombak-garis.png" class="absolute w-full pt-[130px]" alt="ombak-garis"></span>
+        <div class="flex justify-center h-screen relative">
+            <div id="header" class="rounded-full bg-white cs:w-[80%] md:w-4/5 h-height88 flex items-center z-10 top-9 absolute">
+                <div class="container"> 
+                    <div class="flex items-center justify-between relative">
+                        <div class="px-6">
+                            <a class="text-4xl font-bold text-LogoColor" href="#LOGO">LOGO</a>
+                        </div>
+                        <div class="flex items-center px-2 cs:px-0">
+                            <button id="hamburger" name="hamburger" type="button" class="block absolute right-9 lg:hidden">
+                                <span class="hamburger-line transition duration-300 ease-in-out origin-top-left"></span>
+                                <span class="hamburger-line transition duration-300 ease-in-out"></span>
+                                <span class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"></span>
+                            </button>
+                            <nav id="nav-menu" class="hidden absolute py-4 shadow-lg rounded-lg max-w-[280px] w-full right-4 top-full lg:block lg:static lg:max-w-full lg:shadow-none">
+                                <ul class="block lg:flex items-center">
+                                    <li class="group relative">
+                                        <a href="#home" class="text-base text-dark py-2 mx-4 flex group-hover:text-primary">Home</a>
+                                        <span class="lg:absolute rounded-full bottom-[-7px] w-2 h-2 left-1/2 border-box bg-primary transform scale-x-0 transition-transform origin-left group-hover:scale-x-100"></span>
+                                    </li>
+                                    <li class="group relative">
+                                        <a href="#about" class="text-base text-dark py-2 mx-4 flex group-hover:text-primary">About me</a>
+                                        <span class="lg:absolute rounded-full bottom-[-7px] w-2 h-2 left-1/2 border-box bg-primary transform scale-x-0 transition-transform origin-left group-hover:scale-x-100"></span>
+                                    </li>
+                                    <li class="group relative">
+                                        <a href="#course" class="text-base text-dark py-2 mx-4 flex group-hover:text-primary">Course</a>
+                                        <span class="lg:absolute rounded-full bottom-[-7px] w-2 h-2 left-1/2 border-box bg-primary transform scale-x-0 transition-transform origin-left group-hover:scale-x-100"></span>
+                                    </li>
+                                    <li class="group relative">
+                                        <a href="#contact" class="text-base text-dark py-2 mx-4 flex group-hover:text-primary">Contact Us</a>
+                                        <span class="lg:absolute rounded-full bottom-[-7px] w-2 h-2 left-1/2 border-box bg-primary transform scale-x-0 transition-transform origin-left group-hover:scale-x-100"></span>
+                                    </li>
+                                    <div class="login-register-nav lg:flex lg:gap-3 box-border">
+                                        <li class="group lg:border-solid lg:border-2 lg:rounded-full border-black w-[146px] h-[53px] lg:flex items-center justify-center cursor-pointer lg:hover:border-primary lg:hover:bg-primary transition-colors duration-100">
+                                            <a href="#login" class="text-base text-dark py-2 mx-4 flex lg:group-hover:text-white group-hover:text-primary border-primary">Login</a>
+                                        </li>
+                                        <li class="group lg:bg-black lg:border-2 lg:rounded-full w-[146px] lg:h-[53px] lg:flex items-center justify-center cursor-pointer lg:hover:bg-primary transition-colors duration-100 lg:border-black lg:hover:border-primary">
+                                            <a href="#register" class="text-base text-dark lg:py-2 mx-4 flex lg:group-hover:text-white  group-hover:text-primary lg:text-white">Register</a>
+                                        </li>
+                                    </div>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Hero / header Section  -->
+            <section id="home" class="lg:pt-36 cs:pt-20 absolute top-0">
+                <div class="container">
+                    <div class="flex flex-wrap cs:text-center lg:text-left">
+                        <div class="w-full self-center px-10 lg:w-1/2 lg:order-1 cs:order-2">
+                            <div class="relative flex items-center justify-center bg-orange-400 cs:w-full md:w-[50%] cs:h-[80%] lg:w-[331px] lg:h-[43px] rounded-full mb-6 md:mx-auto lg:mx-0 cs:mt-6 mt-0">
+                                <img src="img/Gambar Pelindung.png" alt="p" class="pr-2">
+                                <p class="text-white text-center py-4 cs:text-xs md:text-[16px]">Over 100+ member that join the course</p>
+                            </div>
+                            <h1 class="font-normal lg:text-5xl cs:text-4xl mb-8 lg:right-0">Get your <span class="font-bold text-primary">healthy</span> by <br>changing your <span class="font-bold text-[#FF6C6C] line-through">bad</span> <span class="font-bold text-primary">habits</span> 
+                            </h1>
+                            <p class="font-normal text-[16px] mb-8">Be the best version of you. All good things are built little by little and step by step, with daily acts.</p>
+                            <a href="#home" class="border-2 rounded-full border-[#414141] text-black py-3 px-8 hover:shadow-sm hover:opacity-80 transition duration-300 ease-in-out">Join our course Now</a>
+                        </div>
+                        <div class="w-full lg:self-end lg:px-4 lg:w-1/2 relative lg:relative lg:order-2 sm:order-1 sm:w-[70%] sm:mx-auto">
+                            <div class="mt-10 relative">
+                                <img src="img/bintang.png" alt="bintang" class="absolute lg:bottom-[11rem] lg:left-[30px] cs:bottom-[20%] cs:w-[20%]">
+                                <img src="img/lingkaran-h.png" alt="" class="absolute lg:top-[180px] lg:left-[45px] cs:bottom-[50%] cs:w-[20%]">
+                                <img src="img/gambar-cewek.png" alt="gambar-cewek" class="max-w-full mx-auto">
+                                <img src="img/titik-kotak.png" alt="" class="absolute lg:top-[200px] lg:right-[30px] cs:bottom-[30%] cs:right-[-5%] cs:w-[20%]">
+                                <img src="img/segitiga.png" alt="" class="absolute lg:top-[52px] lg:right-[60px] md:w-[90px] md:h-[90px] cs:top-[10%] cs:right-[5%] cs:w-[20%]">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        </div>
+    </header>
+    <!-- Section -->
+    <section id="section-2" class="pt-14">
+        <div class="container">
+            <div class="flex flex-wrap lg:w-5/6 lg:text-left cs:w-full cs:text-center">
+                <h1 class="font-normal lg:text-5xl mb-8 lg:right-0 cs:text-[34px]">We live in an <span class="font-bold text-primary">abundant</span> and <span class="font-bold text-primary">unhealthy</span> environment where eating poorly is the norm</h1>
+            </div>
+            <div class="flex flex-wrap cs:w-full cs:leading-3">
+                <a href="youtube.com" class="cursor-pointer lg:w-1/2 cs:mx-auto"><img src="img/video.png" alt="video"></a>
+                <div class="lg:w-1/2 pt-6 lg:pt-0">
+                    <p class="font-normal text-base text-justify">The meal in supermarket is strategically placed to attract your attention and try to make you fall into temptation due to the low cost of these products or the massive and tremendously emotional marketing they use. supermarkets is it so packed from meal happiness and belonging is what they sell you and what you need, those products that little by little destroy your health and make you gain weight.
+                    <br><br>
+                    In the form of fat and not muscle. Increasing the risk of developing cardiovascular disease. And of suffering from diabetes, insulin resistance and other unpleasant pathologies due to the great availability of "food" created by peoples. And the prevailing inactivity of the majority of all individuals.
+                    <br><br> 
+                    Despite the fact that all the media and medical centers recommend leading an active lifestyle to stay healthy and not gain weight year after year. Harming our health, making us sick individuals and making us waste money that we could spend on more important things.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section 3 -->
+    <section id="section-3" class="pt-20">
+        <div class="container">
+            <div class="flex flex-wrap lg:w-3/6 lg:text-left cs:w-full cs:text-center">
+                <h1 class="font-normal lg:text-5xl mb-8 lg:right-0 cs:text-[34px]">Take a look why you need to take action for your <span class="font-bold text-[#E8C300]">good habits</span>
+            </div>
+            <div class="flex flex-wrap">
+                <div class="lg:w-1/2 pt-6 lg:pt-0 relative cs:w-full">
+                    <span><img src="img/bintang.png" alt="bintang" class="right-0 absolute cs:top-0"></span>
+                    <div class="desk-1 bg-primary flex flex-wrap md:w-[445px] md:h-[118px] rounded-md mt-14 items-center relative p-6">
+                        <span><img src="img/Vector 6.png" alt="Vector-6" class="absolute top-[-14px] right-6"></span>
+                        <img src="img/centang-putih.png" alt="centang-putih" class="lg:w-[28px] lg:h-[22px] mr-5 cs:w-[14px] cs:h-[11px]">
+                        <p class="lg:text-base cs:text-[14px] text-white leading-6 font-normal">You want to have successful mentality in life and <br> for this you need to feel good about yourself.</p>
+                    </div>
+                    <div class="desk-2 bg-[#B3ECF0] flex flex-wrap md:w-[445px] md:h-[118px] rounded-md mt-14 items-center relative p-6 ml-auto">
+                        <span><img src="img/Vector 5.png" alt="Vector-5" class="absolute top-[-14px] right-6"></span>
+                        <img src="img/centang-hijau.png" alt="centang-hijau" class="lg:w-[28px] lg:h-[22px]  mr-5 cs:w-[14px] cs:h-[11px]">
+                        <p class="lg:text-[16px] cs:text-[14px] text-primary leading-6 font-normal">You know that perfection does not exist and it is <br> better living an 80% healthy lifestyle forever than <br class="cs:hidden lg:block"> reaching total perfection.</p>
+                    </div>
+                    <div class="desk-3 bg-primary flex flex-wrap md:w-[445px] md:h-[118px] rounded-md mt-14 items-center relative p-6">
+                        <span><img src="img/Vector 6.png" alt="Vector-6" class="absolute top-[-14px] right-6"></span>
+                        <img src="img/centang-putih.png" alt="centang-putih" class="lg:w-[28px] lg:h-[22px] mr-5 cs:w-[14px] cs:h-[11px]">
+                        <p class="lg:text-[16px] cs:text-[14px] text-white leading-6 font-normal">You want to learn to listen to yourself, allow you <br> meet your best, learn to say no and have some <br> time for yourself.</p>
+                    </div>
+                    <div class="desk-4 bg-[#B3ECF0] flex flex-wrap md:w-[445px] md:h-[118px] rounded-md mt-14 items-center relative p-6 ml-auto">
+                        <span><img src="img/Vector 5.png" alt="Vector-5" class="absolute top-[-14px] right-6"></span>
+                        <img src="img/centang-hijau.png" alt="centang-hijau" class="lg:w-[28px] lg:h-[22px] mr-5 cs:w-[14px] cs:h-[11px]">
+                        <p class="lg:text-[16px] cs:text-[14px] text-primary leading-6 font-normal">You want to lose weight and you don't where to <br> start.</p>
+                    </div>
+                </div>
+                <img src="img/sayur.png" alt="gambar-sayur" class="lg:w-1/2 cs:hidden lg:block">
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 4 -->
+    <section id="section-4" class="section-4 cs:mt-10 w-full h-[443px] flex items-center">
+        <div class="container">
+            <div class="flex flex-wrap bg-header4">
+                <div class="deskripsi md:w-1/2">
+                    <h1 class="text-white text-[48px] cs:text-[30px]">We don’t want you to go back to your <span class="font-bold">last conditions</span></h1>
+                    <p class="text-white pt-5 text-[16px]">When you wanted to get rid of those love handles that you disliked so much and wanted to hide under your clothes. I don't want you to hide behind a few pieces of cloth again instead of getting dressed to feel beautiful and comfortable. I don't want your life to revolve around your weight gains and losses, that you end up feeling that it's better not to eat or put a slice of pineapple in your mouth to "lose weight"
+                    </p>
+                </div>
+                <div class="flex flex-wrap md:w-1/2">
+                    <img src="img/tanaman.png" alt="tanaman" class="w-[178px] h-[253px] mx-auto cs:hidden md:block">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 5 -->
+    <section id="section-5" class="bg-primary">
+        <div class="container">
+            <div class="flex flex-wrap justify-between pb-4">
+                <img src="img/logo.png" alt="logo">
+                <span class="flex flex-row items-center">
+                <p class="text-white text-[22px] pr-24">Ready to get started?</p>
+                <a href="#" class="w-[175px] h-[50px] bg-white text-primary font-normal rounded-full text-center py-3">Get Started</a>
+                </span>
+            </div>
+            <hr class="bg-white opacity-10">
+            <div class="flex flex-wrap flex-row w-full text-white pt-6 justify-between cs:justify-around">
+                <div class="block md:w-1/3 cs:w-full pb-10 pr-5">
+                    <h1 class="font-bold text-[17px]">Keep in Mind</h1>
+                    <p class="pt-4">Devoting time and energy to yourself is not being selfish. It is the best thing you can do for your family, your friends and your work. iimportant and we end up putting on the last.</p>
+                </div>
+                <div class="block">
+                    <a href="#" class="font-bold text-[17px] block">Menu</a>
+                    <a href="#" class="font-normal text-[16px] block pt-4">Home</a>
+                    <a href="#" class="font-normal text-[16px] block pt-4">About me</a>
+                    <a href="#" class="font-normal text-[16px] block pt-4">Course</a>
+                    <a href="#" class="font-normal text-[16px] block pt-4">Contact</a>
+                </div>
+                <div class="block md:w-1/3">
+                    <a href="#" class="font-bold text-[17px] block">Course</a>
+                    <a href="#" class="font-normal text-[16px] block pt-4">Login</a>
+                    <a href="#" class="font-normal text-[16px] block pt-4">Register</a>
+                </div>
+            </div> 
+            <div class="flex flex-wrap flex-row w-full text-white pt-6 justify-between">
+                <div class="p flex flex-row">
+                    <p class="pr-5">Terms & Conditions</p>
+                    <p>Privacy Policy</p>
+                </div>
+                <div class="flex-row flex">
+                    <a href="#" class="pr-10"><img src="img/icon-facebook.png" alt="fb"></a>
+                    <a href="#" class="pr-10"><img src="img/icon-instagram.png" alt="ig"></a>
+                    <a href="#" class="pr-10"><img src="img/icon-twitter.png" alt="twt"></a>
+                </div>
+            </div> 
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
