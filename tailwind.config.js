@@ -14,9 +14,8 @@ module.exports = {
         second: '##414141'
       },
         screens: {
-          '2xl' : '1320px',
-          'sm'  : '640px',
-          'cs'  : '360px'
+          'sm'  : '200px',
+          'pk' : '173px'
       },
       fontFamily: {
         fontSize: '2.5rem'
