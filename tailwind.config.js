@@ -14,14 +14,17 @@ module.exports = {
         second: '##414141'
       },
         screens: {
-          'sm'  : '200px',
-          'pk' : '173px'
+          'cs'  : '228px',
+          'sm' : '400px',
+          'kcs' : '50px',
+          'lg' : '1033px'
       },
       fontFamily: {
         fontSize: '2.5rem'
       },
       background: {
-        'header4' : "url('img/header4-back.png')"
+        'header4' : "url('img/header4-back.png')",
+        'bg-cewek' : "url('public/img/gambar-cewek.png')"
       },
       border: {
         borderRadius: '100px'
