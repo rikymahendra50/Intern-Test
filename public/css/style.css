@@ -644,11 +644,55 @@ video {
   top: 100%;
 }
 
+.right-10 {
+  right: 2.5rem;
+}
+
+.right-20 {
+  right: 5rem;
+}
+
+.right-12 {
+  right: 3rem;
+}
+
+.right-32 {
+  right: 8rem;
+}
+
+.right-36 {
+  right: 9rem;
+}
+
+.right-7 {
+  right: 1.75rem;
+}
+
+.right-24 {
+  right: 6rem;
+}
+
+.right-48 {
+  right: 12rem;
+}
+
+.-bottom-10 {
+  bottom: -2.5rem;
+}
+
+.-bottom-20 {
+  bottom: -5rem;
+}
+
 .z-10 {
   z-index: 10;
 }
 
 .z-0 {
+  z-index: 0;
+}
+
+.-z-0 {
   z-index: 0;
 }
 
@@ -760,6 +804,10 @@ video {
 
 .min-h-\[780px\] {
   min-height: 780px;
+}
+
+.min-h-\[700px\] {
+  min-height: 700px;
 }
 
 .w-1\/6 {
@@ -924,6 +972,25 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-red-800 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(153 27 27 / var(--tw-bg-opacity));
+}
+
+.bg-slate-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(203 213 225 / var(--tw-bg-opacity));
+}
+
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
+.to-transparent {
+  --tw-gradient-to: transparent var(--tw-gradient-to-position);
+}
+
 .p-4 {
   padding: 1rem;
 }
@@ -1007,6 +1074,10 @@ video {
 
 .pt-\[130px\] {
   padding-top: 130px;
+}
+
+.pt-10 {
+  padding-top: 2.5rem;
 }
 
 .text-left {
@@ -1207,6 +1278,10 @@ body{
 }
 
 @media (min-width: 50px) {
+  .kcs\:right-0 {
+    right: 0px;
+  }
+
   .kcs\:flex {
     display: flex;
   }
@@ -1241,6 +1316,11 @@ body{
 
   .kcs\:flex-col {
     flex-direction: column;
+  }
+
+  .kcs\:bg-slate-300 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(203 213 225 / var(--tw-bg-opacity));
   }
 
   .kcs\:px-0 {
@@ -1546,6 +1626,11 @@ body{
     justify-content: flex-start;
   }
 
+  .md\:bg-white {
+    --tw-bg-opacity: 1;
+    background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  }
+
   .md\:px-2 {
     padding-left: 0.5rem;
     padding-right: 0.5rem;
@@ -1611,6 +1696,14 @@ body{
 
   .lg\:top-\[52px\] {
     top: 52px;
+  }
+
+  .lg\:bottom-0 {
+    bottom: 0px;
+  }
+
+  .lg\:right-48 {
+    right: 12rem;
   }
 
   .lg\:order-1 {
