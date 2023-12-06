@@ -9,17 +9,17 @@
 </head>
 <body>
     <!-- Header Start -->
-        <section id="section-1" class="bg-customBackColor max-w-[100%] min-h-[700px] relative">
-            <span><img src="img/ombak-garis.png" class="absolute w-full pt-[130px]" alt="ombak-garis"></span>
+        <section id="section-1" class="bg-customBackColor max-w-[100%] min-h-[700px] relative z-10">
+            <span><img src="img/ombak-garis.png" class="absolute w-full pt-[130px] -z-50" alt="ombak-garis"></span>
             <div class="container flex justify-center">
-                <div id="header" class="rounded-full bg-white sm:w-4/5 cs:h-[88px] kcs:h-[70px] absolute top-7 flex items-center kcs:w-[311px]">
+                <div id="header" class="rounded-full bg-white sm:w-4/5 cs:h-[88px] kcs:h-[70px] absolute top-7 flex items-center kcs:w-[311px] border-2">
                     <h1 class="sm:text-[40px] text-[#BCBCBC] cs:text-LogoColor font-bold kcs:text-[27px] kcs:hidden cs:block pl-10 ">LOGO</h1>
                     <button id="hamburger" name="hamburger" type="button" class="block absolute right-9 lg:hidden">
                         <span class="hamburger-line transition duration-300 ease-in-out origin-top-left"></span>
                         <span class="hamburger-line transition duration-300 ease-in-out"></span>
                         <span class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"></span>
                     </button>
-                    <nav id="nav-menu" class="hidden absolute py-4 shadow-lg rounded-lg max-w-[280px] w-full top-full lg:block lg:static lg:max-w-full lg:shadow-none cks:bg-slate-300 kcs:right-0 z-99 bg-white">
+                    <nav id="nav-menu" class="hidden absolute py-4 shadow-lg rounded-lg max-w-[280px] w-full top-full lg:block lg:static lg:max-w-full lg:shadow-none cks:bg-slate-300 kcs:right-0 z-99999 kcs:bg-white md:bg:none">
                         <ul class="block lg:flex items-center justify-end mr-4">
                             <li class="group relative">
                                 <a href="#home" class="text-base text-dark py-2 mx-4 flex group-hover:text-primary">Home</a>
@@ -37,9 +37,9 @@
                                 <a href="#contact" class="text-base text-dark py-2 mx-4 flex group-hover:text-primary">Contact Us</a>
                                 <span class="lg:absolute rounded-full bottom-[-7px] w-2 h-2 left-1/2 bg-primary transform scale-x-0 transition-transform origin-left group-hover:scale-x-100"></span>
                             </li>
-                            <div class="login-register-nav lg:flex lg:gap-3 box-border lg:hover:bg-primary transition-colors duration-100">
+                            <div class="login-register-nav lg:flex lg:gap-3 box-border">
                                 <li class="group lg:border-solid lg:border-2 lg:rounded-full border-black w-[146px] h-[53px] lg:flex items-center justify-center cursor-pointer lg:hover:border-primary">
-                                    <a href="#login" class="text-base text-dark py-2 mx-4 flex lg:group-hover:text-white group-hover:text-primary border-primary">Login</a>
+                                    <a href="#login" class="text-base text-dark py-2 mx-4 flex group-hover:text-primary border-primary">Login</a>
                                 </li>
                                 <li class="group lg:bg-black lg:border-2 lg:rounded-full w-[146px] lg:h-[53px] lg:flex items-center justify-center cursor-pointer lg:hover:bg-primary transition-colors duration-100 lg:border-black lg:hover:border-primary">
                                     <a href="#register" class="text-base text-dark lg:py-2 mx-4 flex lg:group-hover:text-white  group-hover:text-primary lg:text-white">Register</a>
@@ -60,9 +60,9 @@
                     <p class="font-normal text-[16px] mb-8">Be the best version of you. All good things are built little by little and step by step, with daily acts.</p>
                     <a href="#home" class="border-2 rounded-full border-[#414141] text-black kcs:py-3 cs:px-8 kcs:px-0 hover:shadow-cs hover:opacity-80 transition duration-300 ease-in-out kcs:h-[100%] kcs:w-4/5">Join our course Now</a>
                 </div>
-                <div class="lg:w-1/2 order-2 kcs:pt-[40px] sm:pt-[100px] kcs:w-[420px] right-0 z-10">
-                    <img src="img/gambar-cewek2.png" alt="gambar-cewek2" class="lg:max-w-[500px]">
-                </div>
+                <!-- <div class="lg:w-1/2 kcs:pt-[40px] sm:pt-[100px] kcs:w-[420px] sm:right-[300px] bottom-0 z-10 lg:max-w-[500px] box-border border-2"> -->
+                    <img src="img/gambar-cewek2.png" alt="gambar-cewek2" class="lg:w-1/2 kcs:pt-[40px] sm:pt-[100px] kcs:w-[420px] sm:right-[300px] lg:max-w-[500px]">
+                <!-- </div> -->
             </div>
         </div>
         </section>
@@ -70,9 +70,9 @@
         <!-- Section 3 -->
         <section id="section-3" class="flex flex-row pt-10 container max-w-[100%] mb-16 sm:w-4/5 kcs:flex kcs:flex-col border-blue">
                 <div class="flex flex-wrap text-left">
-                    <h1 class="font-normal lg:text-5xl mb-8 lg:right-0 kcs:text-4xl sm:text-[34px] lg:w-3/5">We live in an <span class="font-bold text-primary">abundant</span> and <span class="font-bold text-primary">unhealthy</span> environment where eating poorly is the norm</h1>
+                    <h1 class="font-normal lg:text-4xl 2xl:text-5xl mb-8 lg:right-0 kcs:text-4xl sm:text-[34px] lg:w-3/5 kcs:w-full">We live in an <span class="font-bold text-primary">abundant</span> and <span class="font-bold text-primary">unhealthy</span> environment where eating poorly is the norm</h1>
                 </div>
-                <div class="flex flex-wrap lg:flex-row kcs:flex-col relative">
+                <div class="flex flex-wrap lg:flex-row kcs:flex-col relative md:items-center">
                     <a href="www.youtube.com" class="cursor-pointer lg:w-1/2 sm:mx-auto lg:mx-0 max-h-[348px] max-w-[619px]"><img src="img/video.png" alt="video"></a>
                     <div class="lg:w-1/2 kcs:pt-6 lg:pt-0 relative lg:pl-10">
                         <p class="font-normal text-base text-justify kcs:w-full">The meal in supermarket is strategically placed to attract your attention and try to make you fall into temptation due to the low cost of these products or the massive and tremendously emotional marketing they use. supermarkets is it so packed from meal happiness and belonging is what they sell you and what you need, those products that little by little destroy your health and make you gain weight.
@@ -119,11 +119,11 @@
         </section>
 
         <!-- Section 4 -->
-        <section id="section-4" class="section-4 cs:mt-10 w-full h-[443px]">
-                <div class="flex flex-wrap bg-header4 items-center flex-row container max-w-[100%] sm:w-4/5 pt-20">
+        <section id="section-4" class="section-4 kcs:mt-10 w-full kcs:min-h-[570px] cs:h-[443px] relative border-2">
+                <div class="flex flex-wrap bg-header4 items-center flex-row container max-w-[100%] sm:w-4/5 py-20">
                     <div class="deskripsi md:w-1/2">
-                        <h1 class="text-white text-[48px] cs:text-[30px]">We don’t want you to go back to your <span class="font-bold">last conditions</span></h1>
-                        <p class="text-white pt-5 text-[16px]">When you wanted to get rid of those love handles that you disliked so much and wanted to hide under your clothes. I don't want you to hide behind a few pieces of cloth again instead of getting dressed to feel beautiful and comfortable. I don't want your life to revolve around your weight gains and losses, that you end up feeling that it's better not to eat or put a slice of pineapple in your mouth to "lose weight"
+                        <h1 class="text-white lg:text-[48px] kcs:text-[30px]">We don’t want you to go back to your <span class="font-bold">last conditions</span></h1>
+                        <p class="text-white sm:pt-5 sm:text-[16px] kcs:text-[14px]">When you wanted to get rid of those love handles that you disliked so much and wanted to hide under your clothes. I don't want you to hide behind a few pieces of cloth again instead of getting dressed to feel beautiful and comfortable. I don't want your life to revolve around your weight gains and losses, that you end up feeling that it's better not to eat or put a slice of pineapple in your mouth to "lose weight"
                         </p>
                     </div>
                     <div class="flex flex-wrap md:w-1/2">
