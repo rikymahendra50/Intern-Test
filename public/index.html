@@ -10,16 +10,16 @@
 <body>
     <!-- Header Start -->
         <section id="section-1" class="bg-customBackColor max-w-[100%] min-h-[700px] relative z-10">
-            <span><img src="img/ombak-garis.png" class="absolute w-full pt-[130px] -z-50" alt="ombak-garis"></span>
+            <span><img src="img/ombak-garis.png" class="absolute w-full pt-[130px] -z-50" loading="lazy" alt="ombak-garis"></span>
             <div class="container flex justify-center">
-                <div id="header" class="rounded-full bg-white sm:w-4/5 cs:h-[88px] kcs:h-[70px] absolute top-7 flex items-center kcs:w-[311px] border-2">
+                <div id="header" class="rounded-full bg-white sm:w-4/5 cs:h-[88px] kcs:h-[70px] absolute top-7 flex items-center kcs:w-[311px]">
                     <h1 class="sm:text-[40px] text-[#BCBCBC] cs:text-LogoColor font-bold kcs:text-[27px] kcs:hidden cs:block pl-10 ">LOGO</h1>
                     <button id="hamburger" name="hamburger" type="button" class="block absolute right-9 lg:hidden">
                         <span class="hamburger-line transition duration-300 ease-in-out origin-top-left"></span>
                         <span class="hamburger-line transition duration-300 ease-in-out"></span>
                         <span class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"></span>
                     </button>
-                    <nav id="nav-menu" class="hidden absolute py-4 shadow-lg rounded-lg max-w-[280px] w-full top-full lg:block lg:static lg:max-w-full lg:shadow-none cks:bg-slate-300 kcs:right-0 z-99999 kcs:bg-white md:bg:none">
+                    <nav id="nav-menu" class="hidden absolute py-4 shadow-lg rounded-lg max-w-[280px] w-full top-full lg:block lg:static lg:max-w-full lg:shadow-none cks:bg-slate-300 kcs:right-0 z-99999 bg-white lg:bg-transparent">
                         <ul class="block lg:flex items-center justify-end mr-4">
                             <li class="group relative">
                                 <a href="#home" class="text-base text-dark py-2 mx-4 flex group-hover:text-primary">Home</a>
@@ -68,7 +68,7 @@
         </section>
 
         <!-- Section 3 -->
-        <section id="section-3" class="flex flex-row pt-10 container max-w-[100%] mb-16 sm:w-4/5 kcs:flex kcs:flex-col border-blue">
+        <section id="home" class="flex flex-row pt-10 container max-w-[100%] mb-16 sm:w-4/5 kcs:flex kcs:flex-col border-blue">
                 <div class="flex flex-wrap text-left">
                     <h1 class="font-normal lg:text-4xl 2xl:text-5xl mb-8 lg:right-0 kcs:text-4xl sm:text-[34px] lg:w-3/5 kcs:w-full">We live in an <span class="font-bold text-primary">abundant</span> and <span class="font-bold text-primary">unhealthy</span> environment where eating poorly is the norm</h1>
                 </div>
@@ -85,7 +85,7 @@
         </section>
 
         <!-- Section 4 -->
-        <section id="section-3" class="sm:pt-10 flex flex-row container max-w-[100%] min-h-[780px] sm:w-4/5 kcs:flex kcs:flex-col border-blue">
+        <section id="about" class="sm:pt-10 flex flex-row container max-w-[100%] min-h-[780px] sm:w-4/5 kcs:flex kcs:flex-col border-blue">
                 <div class="flex flex-wrap sm:w-4/5 lg:text-left">
                     <h1 class="font-normal lg:text-5xl lg:right-0 cs:text-[34px]">Take a look why you need <br> to take action for your <span class="font-bold text-[#E8C300]">good habits</span>
                     </h1>
@@ -119,7 +119,7 @@
         </section>
 
         <!-- Section 4 -->
-        <section id="section-4" class="section-4 kcs:mt-10 w-full kcs:min-h-[570px] cs:h-[443px] relative border-2">
+        <section id="course" class="section-4 kcs:mt-10 w-full kcs:min-h-[570px] cs:h-[443px] relative">
                 <div class="flex flex-wrap bg-header4 items-center flex-row container max-w-[100%] sm:w-4/5 py-20">
                     <div class="deskripsi md:w-1/2">
                         <h1 class="text-white lg:text-[48px] kcs:text-[30px]">We don’t want you to go back to your <span class="font-bold">last conditions</span></h1>
@@ -134,7 +134,7 @@
 
 
         <!-- Section 5 -->
-        <section id="section-5" class="bg-primary">
+        <section id="contact" class="bg-primary">
             <div class="flex-row container max-w-[100%] sm:w-4/5 pt-5"> 
                 <div class="flex flex-wrap justify-between pb-4">
                     <img src="img/logo.png" alt="logo">
@@ -144,12 +144,12 @@
                     </span>
                 </div>
                 <hr class="bg-white opacity-10">
-                <div class="flex flex-wrap text-white pt-6 md:justify-start cs:justify-around">
+                <div class="flex flex-wrap text-white pt-6 md:justify-start cs:justify-start">
                     <div class="block md:w-1/3 cs:w-full mr-20">
                         <h1 class="font-bold text-[17px]">Keep in Mind</h1>
                         <p class="pt-4">Devoting time and energy to yourself is not being selfish. It is the best thing you can do for your family, your friends and your work. iimportant and we end up putting on the last.</p>
                     </div>
-                    <div class="w-1/6 cs:flex flex-col cs:pt-10 md:pt-0 justify-between">
+                    <div class="w-1/6 flex flex-col cs:pt-10 md:pt-0 mr-10">
                         <a href="#" class="font-bold text-[17px] block">Menu</a>
                         <a href="#" class="font-normal text-[16px] block pt-4">Home</a>
                         <a href="#" class="font-normal text-[16px] block pt-4">About me</a>
@@ -167,7 +167,7 @@
                         <p class="pr-5">Terms & Conditions</p>
                         <p>Privacy Policy</p>
                     </div>
-                    <div class="flex flex-row lg:pt-0 items-center cs:mx-auto md:mx-0">
+                    <div class="flex flex-row lg:pt-0 items-center cs:mx-auto md:mx-0 kcs:pt-5">
                         <a href="#" class="pr-10"><img src="img/icon-facebook.png" alt="fb"></a>
                         <a href="#" class="pr-10"><img src="img/icon-instagram.png" alt="ig"></a>
                         <a href="#" class="pr-10"><img src="img/icon-twitter.png" alt="twt"></a>

@@ -632,24 +632,12 @@ video {
   top: 100%;
 }
 
-.z-10 {
-  z-index: 10;
-}
-
-.z-0 {
-  z-index: 0;
-}
-
-.-z-0 {
-  z-index: 0;
-}
-
-.-z-10 {
-  z-index: -10;
-}
-
 .-z-50 {
   z-index: -50;
+}
+
+.z-10 {
+  z-index: 10;
 }
 
 .mx-4 {
@@ -676,6 +664,10 @@ video {
 
 .ml-auto {
   margin-left: auto;
+}
+
+.mr-10 {
+  margin-right: 2.5rem;
 }
 
 .mr-20 {
@@ -718,10 +710,6 @@ video {
   height: 253px;
 }
 
-.h-\[443px\] {
-  height: 443px;
-}
-
 .h-\[50px\] {
   height: 50px;
 }
@@ -730,28 +718,8 @@ video {
   height: 53px;
 }
 
-.h-\[100\%\] {
-  height: 100%;
-}
-
 .max-h-\[348px\] {
   max-height: 348px;
-}
-
-.max-h-\[443px\] {
-  max-height: 443px;
-}
-
-.max-h-\[100\%\] {
-  max-height: 100%;
-}
-
-.max-h-\[1000px\] {
-  max-height: 1000px;
-}
-
-.max-h-\[500px\] {
-  max-height: 500px;
 }
 
 .min-h-\[700px\] {
@@ -916,6 +884,11 @@ video {
   padding-bottom: 0.5rem;
 }
 
+.py-20 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
 .py-3 {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
@@ -924,16 +897,6 @@ video {
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
-}
-
-.py-20 {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-}
-
-.py-10 {
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
 }
 
 .pb-4 {
@@ -970,10 +933,6 @@ video {
 
 .pt-14 {
   padding-top: 3.5rem;
-}
-
-.pt-20 {
-  padding-top: 5rem;
 }
 
 .pt-4 {
@@ -1014,10 +973,6 @@ video {
 
 .text-\[22px\] {
   font-size: 22px;
-}
-
-.text-\[48px\] {
-  font-size: 48px;
 }
 
 .text-base {
@@ -1184,17 +1139,8 @@ body{
     right: 0px;
   }
 
-  .kcs\:my-10 {
-    margin-top: 2.5rem;
-    margin-bottom: 2.5rem;
-  }
-
   .kcs\:mt-10 {
     margin-top: 2.5rem;
-  }
-
-  .kcs\:mb-10 {
-    margin-bottom: 2.5rem;
   }
 
   .kcs\:flex {
@@ -1211,22 +1157,6 @@ body{
 
   .kcs\:h-\[70px\] {
     height: 70px;
-  }
-
-  .kcs\:h-\[700px\] {
-    height: 700px;
-  }
-
-  .kcs\:min-h-\[500px\] {
-    min-height: 500px;
-  }
-
-  .kcs\:min-h-\[700px\] {
-    min-height: 700px;
-  }
-
-  .kcs\:min-h-\[600px\] {
-    min-height: 600px;
   }
 
   .kcs\:min-h-\[570px\] {
@@ -1251,11 +1181,6 @@ body{
 
   .kcs\:flex-col {
     flex-direction: column;
-  }
-
-  .kcs\:bg-white {
-    --tw-bg-opacity: 1;
-    background-color: rgb(255 255 255 / var(--tw-bg-opacity));
   }
 
   .kcs\:px-0 {
@@ -1293,20 +1218,16 @@ body{
     font-size: 10px;
   }
 
+  .kcs\:text-\[14px\] {
+    font-size: 14px;
+  }
+
   .kcs\:text-\[27px\] {
     font-size: 27px;
   }
 
   .kcs\:text-\[30px\] {
     font-size: 30px;
-  }
-
-  .kcs\:text-\[11px\] {
-    font-size: 11px;
-  }
-
-  .kcs\:text-\[14px\] {
-    font-size: 14px;
   }
 }
 
@@ -1318,10 +1239,6 @@ body{
   .cs\:mx-auto {
     margin-left: auto;
     margin-right: auto;
-  }
-
-  .cs\:mt-10 {
-    margin-top: 2.5rem;
   }
 
   .cs\:block {
@@ -1340,12 +1257,12 @@ body{
     height: 11px;
   }
 
-  .cs\:h-\[88px\] {
-    height: 88px;
-  }
-
   .cs\:h-\[443px\] {
     height: 443px;
+  }
+
+  .cs\:h-\[88px\] {
+    height: 88px;
   }
 
   .cs\:w-\[14px\] {
@@ -1356,8 +1273,8 @@ body{
     width: 100%;
   }
 
-  .cs\:justify-around {
-    justify-content: space-around;
+  .cs\:justify-start {
+    justify-content: flex-start;
   }
 
   .cs\:px-8 {
@@ -1373,10 +1290,6 @@ body{
     padding-top: 100px;
   }
 
-  .cs\:pt-5 {
-    padding-top: 1.25rem;
-  }
-
   .cs\:text-4xl {
     font-size: 2.25rem;
     line-height: 2.5rem;
@@ -1386,20 +1299,8 @@ body{
     font-size: 14px;
   }
 
-  .cs\:text-\[30px\] {
-    font-size: 30px;
-  }
-
   .cs\:text-\[34px\] {
     font-size: 34px;
-  }
-
-  .cs\:text-\[16px\] {
-    font-size: 16px;
-  }
-
-  .cs\:text-\[48px\] {
-    font-size: 48px;
   }
 
   .cs\:text-LogoColor {
@@ -1418,16 +1319,8 @@ body{
     margin-right: auto;
   }
 
-  .sm\:block {
-    display: block;
-  }
-
   .sm\:hidden {
     display: none;
-  }
-
-  .sm\:h-\[443px\] {
-    height: 443px;
   }
 
   .sm\:w-4\/5 {
@@ -1442,12 +1335,12 @@ body{
     padding-top: 2.5rem;
   }
 
-  .sm\:pt-\[100px\] {
-    padding-top: 100px;
-  }
-
   .sm\:pt-5 {
     padding-top: 1.25rem;
+  }
+
+  .sm\:pt-\[100px\] {
+    padding-top: 100px;
   }
 
   .sm\:text-\[16px\] {
@@ -1460,10 +1353,6 @@ body{
 
   .sm\:text-\[40px\] {
     font-size: 40px;
-  }
-
-  .sm\:text-\[48px\] {
-    font-size: 48px;
   }
 }
 
@@ -1493,10 +1382,6 @@ body{
     width: 445px;
   }
 
-  .md\:w-full {
-    width: 100%;
-  }
-
   .md\:items-center {
     align-items: center;
   }
@@ -1505,20 +1390,8 @@ body{
     justify-content: flex-start;
   }
 
-  .md\:justify-center {
-    justify-content: center;
-  }
-
   .md\:pt-0 {
     padding-top: 0px;
-  }
-
-  .md\:pt-5 {
-    padding-top: 1.25rem;
-  }
-
-  .md\:text-\[16px\] {
-    font-size: 16px;
   }
 }
 
@@ -1627,6 +1500,10 @@ body{
     background-color: rgb(0 0 0 / var(--tw-bg-opacity));
   }
 
+  .lg\:bg-transparent {
+    background-color: transparent;
+  }
+
   .lg\:px-3 {
     padding-left: 0.75rem;
     padding-right: 0.75rem;
@@ -1642,11 +1519,6 @@ body{
     padding-bottom: 0.75rem;
   }
 
-  .lg\:py-20 {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-  }
-
   .lg\:pl-10 {
     padding-left: 2.5rem;
   }
@@ -1659,6 +1531,11 @@ body{
     text-align: left;
   }
 
+  .lg\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
   .lg\:text-5xl {
     font-size: 3rem;
     line-height: 1;
@@ -1668,18 +1545,13 @@ body{
     font-size: 16px;
   }
 
+  .lg\:text-\[48px\] {
+    font-size: 48px;
+  }
+
   .lg\:text-base {
     font-size: 1rem;
     line-height: 1.5rem;
-  }
-
-  .lg\:text-4xl {
-    font-size: 2.25rem;
-    line-height: 2.5rem;
-  }
-
-  .lg\:text-\[48px\] {
-    font-size: 48px;
   }
 
   .lg\:text-white {
@@ -1710,14 +1582,6 @@ body{
 }
 
 @media (min-width: 1536px) {
-  .\32xl\:right-0 {
-    right: 0px;
-  }
-
-  .\32xl\:w-3\/5 {
-    width: 60%;
-  }
-
   .\32xl\:text-5xl {
     font-size: 3rem;
     line-height: 1;
